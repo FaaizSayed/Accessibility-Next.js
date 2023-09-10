@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Contact() {
     return (
-        <main>
+        <main id="main" tabIndex="-1">
             <h1>Contact Us page</h1>
         </main>
     )

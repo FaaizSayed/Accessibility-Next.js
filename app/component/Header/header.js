@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link";
+import SkipLink from "../skipLink/skipLink";
 import { useSelectedLayoutSegment } from "next/navigation";
 
 export default function Header() {
@@ -30,6 +31,7 @@ export default function Header() {
 
   return (
     <header className="header">
+      <SkipLink />
       <a href="#" class="logo">
         CompanyLogo
       </a>

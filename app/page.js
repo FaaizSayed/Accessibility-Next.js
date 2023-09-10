@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
+    <main id="main" tabIndex="-1">
       <h1>Accessibility in Next.js</h1>
     </main>
   );

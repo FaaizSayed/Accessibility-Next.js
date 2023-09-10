@@ -68,6 +68,22 @@ main {
   }
 }
 
+.skip-link {
+  position: absolute;
+  top: 0;
+  right: 100%; /* moves off screen */
+  z-index: 500; /* some number that will make sure it covers other elements */
+}
+
+.skip-link:focus {
+  right: auto;
+  background-color: #000;
+  color: #fff;
+  border: #fff 3px solid;
+  padding: 1em;
+}
+
+
 /* Footer */
 footer {
   text-align: center;
